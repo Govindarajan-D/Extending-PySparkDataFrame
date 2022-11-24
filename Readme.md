@@ -1,9 +1,10 @@
 # Wheel package Instructions
 ## Files
-EnhancedDataFrame
---__init__.py - Imports * from the .py file
---EnhancedDataFrame.py - Contains the newly defined methods
-setup.py - Contains the code for setting up the wheel file
+EnhancedDataFrame <br/>
+--__init__.py - Imports * from the .py file <br/>
+--EnhancedDataFrame.py - Contains the newly defined methods <br/>
+setup.py - Contains the code for setting up the wheel file <br/>
+
 ## Creating and using wheel package
 Run the following code and in the dist directory, you will find the whl package. 
 ```

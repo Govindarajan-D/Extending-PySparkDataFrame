@@ -1,5 +1,5 @@
 from pyspark.sql import DataFrame
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col, lit
 
 def not_null_count(self, col_name):
     return DataFrame(self._jdf, self.sql_ctx).filter(col(col_name).isNotNull()).count()
